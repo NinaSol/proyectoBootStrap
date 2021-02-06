@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- app search page-->
+<div data-role="page" id="pokeSearch-page">
+    <div data-role="header" data-theme="b">
+         <h1>Pokeapi Demos</h1>
+    </div>
+    <div data-role="main" class="ui-content">
+    <form id="pokeForm" action="#pokeDetails-page" method="post">
+        <div>
+        <label for="pokeInput">Pokemon name or number:
+        <input type="text" name="pokeInput" id="pokeInput" placeholder="Name/Number" value="">
+        </div>
+        <br>
+        <div>
+        <a class="ui-btn" onclick="pokeSubmit();">Search
+        </div>
+    </form>
+    <div>
+    <ul data-role="listview" data-inset="true" id="pokeDetails">
+    </ul>
+    </div>
+    </div>
+</div>l>
+    </div>
+    <script src="rossipage/assets/js/healthApi.js"></script>
+</body>
+</html>
